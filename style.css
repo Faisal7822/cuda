@@ -1,0 +1,363 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 15px;
+}
+
+.container-full{
+  width: 100%;
+  display: block;
+}
+
+.container-full2{
+  width: 100%;
+  display: block;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+.container2{
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+
+}
+
+.container-full3{
+  width: 100%;
+  display: block;
+}
+
+.container3{
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+
+
+}
+
+.container-full4{
+  width: 100%;
+  display: block;
+
+}
+
+.container4{
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+
+
+}
+
+  header{
+  padding: 50px 50px;
+
+
+}
+
+.logo{
+  width: 50%;
+  float: left;
+}
+
+.menu{
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+
+.menu a{
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+
+}
+
+.menu a:hover{
+  background: rgb(0, 0, 0, 0.3)
+}
+
+.banner-text{
+  padding: 100px 50px;
+  text-align: center;
+  font-size: 22px;
+  color: white;
+}
+
+.banner-text a{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  background-color: #eb7d4b;
+  width: 200px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.line{
+  width: 100px !important;
+  height:0;
+  display:block;
+  margin: 0 auto !important;
+  background: rgb(0, 0, 0, 0.3)
+}
+
+
+
+section  h1 {
+  color: white;
+  text-align: center;
+  padding-top:50px;
+  font-size: 30px;
+}
+
+section p{
+  color:white;
+  text-align:center;
+  padding: 5px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  width: 50%;
+  margin: auto;
+}
+
+.SERVICES{
+  display: flex;
+}
+
+.SERVICE{
+  width: 25%;
+  color: white;
+  padding-top: 35px;
+  text-align: center;
+
+}
+
+.SERVICE h3{
+  padding-top: 20px;
+
+}
+
+.SERVICE p{
+  font-size: 12px;
+  margin-top:10px;
+}
+
+.container2 h1{
+  color: black;
+  padding-top:50px;
+  font-size: 30px;
+}
+
+
+.container2 p{
+  color: black;
+  text-align:center;
+  padding: 5px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  width: 50%;
+  margin: auto;
+
+
+}
+
+
+.TEAM{
+  display: flex;
+
+}
+
+.TEAMS{
+  width: 25%;
+  color: black;
+  padding-top: 35px;
+  text-align: center;
+
+
+
+}
+
+.TEAMS img{
+  clip-path:circle()
+}
+
+.TEAMS h3{
+  font-size: 25px;
+}
+
+
+
+.TEAMS h4{
+  color: #72caec;
+  padding: 5px;
+  font-size: 20px;
+}
+
+
+.TEAMS p{
+  color: black;
+  font-size: 15px;
+}
+
+
+.container3 h1{
+  color: black;
+  padding-top:50px;
+  font-size: 30px;
+  margin:10px;
+}
+
+
+.container3 p{
+  color: black;
+  text-align:center;
+  padding: 5px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  width: 50%;
+  margin-top:20px;
+
+
+}
+
+.container4 h1{
+  color: black;
+}
+
+.container4 p{
+  color: black;
+}
+.buttons{
+  text-align: center;
+  display: block;
+  padding: 30px 5px;
+}
+
+.d-grid{
+  display: block;
+  text-align:center;
+  padding: 30px;
+
+
+}
+
+
+.skill{
+  display: flex;
+  padding: 10px;
+
+}
+
+.skills{
+  width: 25%;
+  color: black;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.skills h3{
+  padding: 30px;
+}
+
+
+.portfolios{
+  display: flex;
+  padding: 70px;
+
+
+}
+
+.portfolio p{
+  color: black;
+  font-style:oblique;
+
+}
+
+.prt{
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.prt1{
+  padding: 20px;
+
+}
+
+.claints{
+  display: flex;
+  padding-top: 30px;
+
+}
+
+.claints img{
+  clip-path:circle()
+}
+.claint p{
+  font-size: 15px;
+  padding: 10px 5px;
+}
+
+
+form{
+  width: 90%;
+  max-width: 600px;
+
+}
+
+.input-group{
+  margin-bottom: 30px;
+  color: #fff;
+  position: relative;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #fff;
+  background: transparent;
+  font-size: 15px;
+
+}
+
+ label{
+   height: 100%;
+   position: absolute;
+   left: 0;
+   top:0;
+   padding: 10px;
+   color: white;
+   cursor: text;
+   transition: 0.2s;
+ }
+
+
+
+ input:focus~label,
+ input:valid~label,
+ textarea:focus~label,
+ textarea:valid~label{
+   top: -35px;
+   font-size: 14px;
+ }
+
+ .row{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+ .row input-group{
+   flex-basis: 48%;
+ }
